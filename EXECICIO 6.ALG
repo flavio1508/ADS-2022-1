@@ -1,13 +1,13 @@
-Algoritmo "Exercicio 24"
+Algoritmo "Exercicio 6"
+Var
+salfixo, comi, vendas:real
+Inicio
+escreva (" Qual seu sal√°rio? ")
+leia (salfixo)
+escreva (" Quanto tu vendeu? ")
+leia (vendas)
+comi <- vendas * 0.04
+escreval (" Sua comiss√£o foi de:", comi)
+escreval (" Seu sal√°rio l√≠quido √©:", salfixo + comi)
 
-VAr
-reais, ale, dolar, libra:real
-
-inicio
-Escreva (" Quantos reais vocÍ tem? ")
-leia(reais)
-ale <- reais * 2
-dolar <- reais * 1.8
-libra <- reais * 3.57
-Escreval (" VocÍ tem ",ale, " Marcos alem„es,",dolar," dolares e ",libra," Libras esterlinas.")
-fimalgoritmo
+Fimalgoritmo
